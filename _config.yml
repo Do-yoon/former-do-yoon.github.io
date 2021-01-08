@@ -7,38 +7,35 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: Do-yoon is free!                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Web developer / ex-archit. student   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Just wanna be free.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'http://do-yoon.github.io'
 
-author: your_full_name                  # change to your full name
+author: Do-yoon Kim                  # change to your full name
 
 github:
-  username: github_username             # change to your github username
+  username: do-yoon             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: Do-yoon Kim                  # it will shows as the copyright owner in Footer
+  email: cheeezing_u@naver.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/do-yoon       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/doyoon-kim-34657b14a/
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: web # change to your verification string
 # --------------------------
 
 
@@ -47,7 +44,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
@@ -86,7 +83,7 @@ theme_mode:   # [light|dark]
 # Note: MUST remove it or replace with your CDN
 img_cdn: 'https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images'
 
-avatar: /commons/avatar.jpg   # the avatar on sidebar, support local or internet resources
+avatar: https://avatars3.githubusercontent.com/u/33196437?s=400&u=a66a1706580ff9ca1ba97400ad4fd5fda95e0c04&v=4   # the avatar on sidebar, support local or internet resources
 
 
 # boolean type, the global switch for ToC in posts.
