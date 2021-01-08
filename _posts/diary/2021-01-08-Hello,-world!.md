@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hello, world!"
+categories: [diary]
 ---
 
 # 시작
