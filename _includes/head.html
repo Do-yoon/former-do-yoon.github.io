@@ -64,6 +64,33 @@
   <script defer
     src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.15.0,npm/bootstrap@4/dist/js/bootstrap.min.js"></script>
 
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script type="text/javascript">
+      function setModifiedDate() {
+          if (document.getElementById('last-modified')) {
+              var myHeaders = new Headers();
+              myHeaders.append("Authorization", "Bearer 95534d2b50e9e186ab1916e45b8a942515a32a84");
+              var requestOptions = {
+                  method: 'GET',
+                  headers: myHeaders,
+                  redirect: 'follow'
+              };
+              fetch("https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ page.path }}", requestOptions)
+                  .then((response) => {
+                      return response.json();
+                  })
+                  .then((commits) => {
+                      var modified = commits[0]['commit']['committer']['date'];
+                      if (modified != "{{ page.date }}"
+                  )
+                      {
+                          document.getElementById('last-modified').textContent = moment(modified).format('YYYY-MM-DD HH:mm:ss');
+                      }
+                  });
+          }
+      }
+</script>
   {% include js-selector.html %}
 
 </head>
