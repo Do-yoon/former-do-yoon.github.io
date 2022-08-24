@@ -12,4 +12,7 @@ order: 4
 
 
 ## Do-yoon Kim
-Web developer and Coffee Lover.
+
+I'm...
+* Web developer and Coffee Lover. 
+* 
