@@ -12,4 +12,11 @@ order: 4
 
 
 ## Do-yoon Kim
+<<<<<<< HEAD
+
+I'm...
+* Web developer and Coffee Lover. 
+* 
+=======
 Web developer and Coffee Lover.
+>>>>>>> 4d89d5be756b288cf2f261e6ba43110ef9d1fbff
